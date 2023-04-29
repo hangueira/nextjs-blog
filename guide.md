@@ -142,3 +142,26 @@ es5로 되어있는 것을 ES6로 변경하자
 - 사진 불러오기
 - 자기소개 3줄
 - Contact Me 버튼 만들기
+
+---
+
+# Blog Project by nextjs-4
+
+##### 2023.04.29
+
+## 피쳐된 포스트 보여주기
+
+목표
+
+- 이미지, 날짜, 제목, 설명, 카테고리 출력가능해야함
+- 서버에서 데이터를 가져오는것 까지 해야한다.
+
+```json
+id:number,
+title:string,
+description:string,
+date:Date,
+category:string,
+path:string,
+featured:boolean
+```
